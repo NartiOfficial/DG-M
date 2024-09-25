@@ -99,9 +99,11 @@
 }
 
 @media (min-width: 1200px) {
-  &__text {
-    p {
-      font-size: 2.2rem;
+  .header {
+    &__text {
+      p {
+        font-size: 2.2rem;
+      }
     }
   }
 }
