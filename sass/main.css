@@ -44,6 +44,10 @@ body {
   background-color: #232323;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 h1.company-name {
   margin-bottom: 0.5em;
   font-size: 3rem;
