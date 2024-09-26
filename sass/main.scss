@@ -31,7 +31,6 @@ h1.company-name {
 
 .wrapper {
   margin: 0 auto;
-  min-width: 1200px;
   width: 100%;
 }
 
@@ -252,9 +251,9 @@ h1.company-name {
   position: relative;
   display: grid;
   grid-template-areas:
-    "title title title"
-    "box box box"
-    "box box box";
+    "title"
+    "box"
+    "box";
   padding: 6em 2em;
 
   &__title {
@@ -334,6 +333,44 @@ h1.company-name {
     margin-bottom: 1.5em;
     font-style: 1.8rem;
     color: $gold;
+  }
+}
+
+.newsletter {
+  padding: 8em 2em;
+  background-color: $red;
+  text-align: center;
+
+  &__text {
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 4rem;
+    font-weight: 200;
+  }
+
+  &__form {
+    input {
+      margin-bottom: 1em;
+      padding: 1em;
+      width: 100%;
+      background-color: $white;
+      border: 1px solid transparent;
+    }
+
+    button {
+      padding: 1em;
+      border: 1px solid $gold;
+      background: none;
+      color: $gold;
+      font-weight: bold;
+      cursor: pointer;
+      transform: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        color: $red;
+        background-color: $gold;
+      }
+    }
   }
 }
 
