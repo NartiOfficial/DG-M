@@ -1,10 +1,10 @@
-## ✨ DG&M Corporation Website - Investment Solutions
+# ✨ DG&M Corporation Website - Investment Solutions
 
 ![DG&M](./img/preview/DG-M.png)
 
 **Welcome to the DG&M Corporation website, a platform showcasing our investment solutions in diamonds, gold, and money.** This project focuses on providing a clear and informative user experience for potential investors.
 
-### Project Overview
+## Project Overview
 
 **Objective:** Develop a well-structured, informative website that effectively communicates DG&M Corporation's investment opportunities and highlights the benefits of choosing our services.
 
